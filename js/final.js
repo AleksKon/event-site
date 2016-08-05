@@ -201,7 +201,7 @@ function init(){
 
 function loadScript(){
     var script = document.createElement('script');
-    script.src = 'https://maps.googleapis.com/maps/api/js?sensor=false&callback=init'; //callsback the function created above
+    script.src = 'https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyDhmoAYgo70DFh_4Phl46FXV2yazxWlhc0&v=3&callback=init'; //callsback the function created above
     document.body.appendChild(script);
 }
 
