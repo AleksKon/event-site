@@ -1,0 +1,66 @@
+@media (max-width: 640px){
+	nav.navScroll {
+	font-size:0.8em; 
+}
+	.demo-inner-content h1 {
+			font-size: 1.6em !important;
+			margin-top: 30px !important;
+		}
+	#form {
+  width:100%;
+  height: auto;
+  overflow: hidden;
+  padding: 35px 10px;
+}
+input, select,{
+  width: 95%;
+  margin: 15px 0;
+  
+}
+	#columOne,#columTwo {
+	width: 100%;
+	float: center;
+	padding-left: 0;
+}
+#timer{
+	width: 100%;
+}
+
+#info{
+	width: 100%;
+	
+}
+#email p,#tel p{
+	font-size: 0.9em;
+}
+}
+
+@media (max-width: 767px){
+
+	#wrapper{
+	width: 90%;
+	padding:0 ;
+}
+#content {
+	width: 100%;
+	line-height: 1.4em;
+	font-size: 1em;
+}
+#timeTable{
+	width: 80%;
+}
+
+#talks, #tastings{
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+#form {
+  width:100%;
+ 
+}
+#timer{
+	width: 100%;
+}
+
+}

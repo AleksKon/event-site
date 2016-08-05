@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Event - Tea Festival</title>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic">
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/style.css"/><!--general css-->
+	<link rel="stylesheet" href="css/media.css"/><!--Media-queries css-->
+	<link rel="stylesheet" href="css/prettySticky.css"/><!--header-->
+	<link rel="stylesheet" href="css/zoomslider.css" /><!--slideshow-->
+	<script src="js/modernizr-2.6.2.min.js"></script><!--slideshow-->
+	<!--countdown-->
+	<link href="css/jquery.classycountdown.css" rel="stylesheet" type="text/css">
+	
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div id="wrapper">
+					<div class="menu">
+						<ul>
+							<li class="nav">
+								<a href="#home">Home</a>
+							</li>
+							<li class="nav">
+								<a href="#about">About</a>
+							</li>
+							<li class="nav">
+								<a href="#register">Register</a>
+							</li>
+							<li class="nav">
+								<a href="#page5">When</a>
+							</li>
+							<li class="nav">
+								<a href="#googleMap">Location</a>
+							</li>
+							<li class="nav">
+								<a href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				 </div><!--End of wrapper-->	
+			</nav>	
+		</header>
+				<!--HOME-->		
+		<section id="home">
+			<div id="demo-1" data-zs-src='["img/slide_1.jpg", "img/slide_2.jpg", "img/slide_3.jpg","img/slide_4.jpg"]' data-zs-overlay="dots">
+				<div class="demo-inner-content">
+					<h1>Teas of the World<br>Festival</h1>
+
+					<p>NYC May 22 - 24 , 2017<br>Join us</p>
+				</div>
+			</div>
+		</section>
+
+			<!--SCHEDULE-->	
+		<section id="about">
+			<div id="wrapper">
+			<div id="heading">ABOUT</div>
+			<div id="text">
+			
+				<div id="content">
+					<h3>Taste & Learn</h3>
+						<p>Join us for the first edition of the NYC Teas of the World Festival. Taste teas from around
+						the globe and learn about ancestral and contemporary tea traditions.
+						This year’s festival will include tea producers and importers from around the world. Meet
+						experts from Japan, India, France and Brooklyn and taste their rare and exquisite products.
+						Wether you are a tea connoisseur or a novice you’ll find workshops and lectures to expand
+						your knowledge about this complex and delightful beverage.
+						This year’s highlights include: a lecture by Mary Smith, co-author of “The Story of Tea: A
+						Cultural History & Drinking Guide” and a workshop on baking with matcha.</p>
+						<button id="moreBtn">More</button> 
+						<div id="more"><p>The teas of the world festival is the first event of its kind in New York City. With over 500
+						participants and 2000 varieties of teas, it will be the largest gathering of tea producers on
+						the East Coast.
+						To become an exhibitor, contact us at <a href="mailto:inquiry@teasworldnyc.com">inquiry@teasworldnyc.com</a></p></div>
+				</div><!--End of content-->	
+				<div id="timeTable">
+				<div id="talks">
+					<h3>Talks</h3>
+					<p>Learn more about the history of tea and current trends with specialists from around the globe.</p>
+					<button id="talksSch">See Schedule</button> 
+					<div id="seeTalk" class="try"></div>
+				</div><!--End of talks-->
+				
+				<div id="tastings">
+					<h3>Tastings & Workshops</h3>
+					<p>Compare black teas from India and Brooklyn and learn how to make sweet green tea
+					cupcakes.</p>
+					<button id="tastingsSch">See Schedule</button>
+					<div id="seeTastings"></div>
+				</div><!--End of tasting-->
+				</div>
+
+				</div>
+			</div><!--End of wrapper-->	
+		</section>	
+
+			<!--REGISTER-->	
+		<section id="register">
+			<div id="wrapper">
+			<div id="heading" class="white">REGISTER</div>
+				<div id="form">
+					    <form  method="post"  name="register" id="formSignup">
+					    <div id="columOne">
+					          <div class="name">
+					            <label for="name" class="required">First name<span>&#42;</span></label>
+					            <input type="text" placeholder="Enter first name" name="Name" id="required" required title="Please enter your name">
+					          </div>
+
+					          <div class="name">
+					            <label for="name" class="required">Last name<span>&#42;</span></label>
+					            <input type="text" placeholder="Enter last name" name="LastName" id="required" required title="Please enter your name">
+					          </div>
+
+					          <div class="email">
+					            <label for="email" class="required">Email<span>&#42;</span></label>
+					            <input type="email" placeholder="you@example.com" name="Email" id="required" required>
+					          </div>
+					    </div><!--End of columnOne-->
+					    <div id="columTwo">	      
+					          <div class="phone">
+					            <label for="phone" class="required">Phone:</label>
+					            <input type="phone" placeholder="Enter phone number " name="phone" id="phone" >
+					          </div>
+
+
+					          <label for="listName">Choose pass: </label>
+					          <select id ="dropdown">
+					          <option value ="select">Select</option>
+					          <option value ="friday">Friday Pass</option>
+					          <option value ="saturday">Saturday Pass</option>
+					          <option value ="sunday">Sunday Pass</option>
+					          <option value ="threeDay">Three-day Pass</option>
+					          </select>
+
+					        	<div id="description"></div>
+
+					         	<div id="registerButton" ><input type="submit" value="Register" ></div>
+					        </div><!--End of columnTwo-->	
+					</form>	    
+				</div><!-- form-->
+			</div><!--End of wrapper-->		
+		</section>	
+
+		<!--PAGE 5-->
+		<section id="page5">
+			<div id="wrapper">
+			<div id="heading" class="color">WHEN</div>
+			<div id="remind"><h4> May 22 - 24 , 2017</h4></div>
+				<div id="remind"><h3>There are:</h3></div>
+				<div id="timer">
+					<div id="countdown2" class="ClassyCountdownDemo"></div>
+	  				<!--<div id="countdown9" class="ClassyCountdownDemo"></div>-->
+				</div><!--End of timerr-->	
+				<div id="remind"><p>left until opening day !</p>
+				<h4>Don't miss out! <a href="#register">Register</a> now.</h4></div>
+
+				<div id="heading" class="color">WHERE</div>
+				 <div id="location">
+					<h3>There are 4 venues for the festival - <br><small>all located in Manhattan</small></h3>
+					<p>Please see the <a href="#about">schedule</a> and <a href="#googleMap">map</a> for the location of each event</p>
+				 </div>
+			</div><!--End of wrapper-->	
+		</section>	
+
+			<!--MAP-->	
+		<section id="googleMap" class="embed-container  maps">
+			<div id="wrapper">
+				 <div id="map"></div>	
+			</div><!--End of wrapper-->		
+		</section>	
+
+			
+			<!--CONTACT-->	
+		<section id="contact">
+			<div id="wrapper">
+			<div id="heading">CONTACT</div>
+				<div id="info">
+					<div id="email">
+						<img src="img/email.png">
+						<p><a href="mailto:inquiry@teasworldnyc.com">inquiry@teasworldnyc.com</a></p>
+					</div>
+					<div id="tel">
+						<img src="img/tel.svg">
+						<p><a>212-353-4677</a></p>
+					</div>
+					<div id="social">
+						<p>Connect</p>
+						<a href="https://www.facebook.com"><div id="fb"></div></a>
+						<a href="https://www.twitter.com"><div id="twt"></div></a>
+					</div>
+
+				</div>
+			</div><!--End of wrapper-->	
+		</section>	
+		<section id="footer">
+			<div id="wrapper">
+			<p>&copy; 2015 Aleksandra Koneska | All rigths Reserved</p>
+			</div>
+		</section>
+			
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+	 <script src="js/jquery-1.10.2.min.js"></script><!--parallax-->
+	 <script src='js/jquery-1.12.2.min.js'></script>
+	 <script src="js/final.js"></script><!--main-->
+	<script src="js/prettySticky.js"></script><!--header/nav-->
+	<script src="js/jquery.smooth-scroll.min.js"></script><!--header/nav-->
+	<script src="js/jquery.zoomslider.min.js"></script><!--main slideshow-->
+	<script src="js/registerForm.js"></script>
+	<!--countdown-->
+	<script src="js/countdown.js"></script>
+	<script src="js/jquery.knob.js"></script>
+	<script src="js/jquery.throttle.js"></script>
+	<script src="js/jquery.classycountdown.min.js"></script>
+
+
+	
+</html>

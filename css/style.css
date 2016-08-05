@@ -1,0 +1,352 @@
+/* Basic styling */
+@font-face {
+    font-family: 'latolight';
+    src: url('lato-light-webfont.eot');
+    src: url('lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-light-webfont.woff2') format('woff2'),
+         url('lato-light-webfont.woff') format('woff'),
+         url('lato-light-webfont.ttf') format('truetype'),
+         url('lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+   font-family: 'Lato', Arial, sans-serif;
+	font-weight: 300;
+	color:#656D78;
+
+	font-size: 1.05em;
+	width: 100%;
+
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:400;
+}
+
+section{
+	width: 100%;	
+}
+#wrapper{
+	width: 85%;
+	position: relative;
+	margin: 0 auto;
+	padding:0 5% 0 5%;
+	/*border-left: 1px solid #666;
+	border-right: 1px solid #666; */
+}
+#heading{
+	text-align: center;
+	letter-spacing: 0.4em;
+	font-size: 1.3em;
+	padding: 4% 3% 3% 3%;
+}
+.white{
+	color: #fff;
+}
+
+/*----- HEADER & NAVIGATION -- go to prettySticky.css --------*/
+
+/*----- HOME-slideshow ---------------------------------------*/
+#demo-1 {
+	position: relative; /* can either be relative, absolute or fixed. If position is not set (i.e. static), it would be set to "relative" by script */
+	overflow: hidden; /* to bound the empty top space created by inner element's top margin */
+	width: 100%;
+	min-height: 400px;
+	background-color: #999;
+}
+.demo-inner-content {
+	position: relative;
+	z-index: 2;
+	margin: 12% auto;
+	padding: 40px;
+	max-width: 600px;
+	color: #fff;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bolder;
+	text-shadow:1px 0 0 #666;
+}
+.demo-inner-content h1 {
+	font-size: 2.3em;
+	margin-bottom: 	15px;
+}
+.demo-inner-content p {
+	font-size: 1em;
+	margin: 0;
+}
+/*-----------ABOUT-------------*/
+#text{
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 4%; 
+}
+#content{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+#timeTable{
+	width: 80%;
+	margin: 0 auto;
+	overflow: auto;
+}
+#talks, #tastings{
+	width: 45%;
+	padding: 1%;
+	display: inline-block;	
+	float: left;
+}
+#tastings{
+	float: right;
+	display: inline-block;	
+}
+#seeTalk h3,p, #seeTastings h3,p{
+	margin: 1%;
+}
+#seeTalk,#seeTastings{
+	font-size: 0.9em;
+	width: 100%;
+	margin-top: 1%;
+	background-color:#48CFAD;
+	padding: 1%;
+	color: white;
+}
+button{
+ width: 150px !important;
+ 	margin: 25px auto !important;
+ 	padding: 12px;
+ 	border: 2px solid #48CFAD;
+ 	background-color: #fff;
+ 	color:#48CFAD;
+ 	font-size: 0.8em;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+ 	border-radius: 5px;
+ 	outline: none;
+ }
+
+button:hover{
+ 	background-color:  #48CFAD;
+ 	color: #fff;
+ }
+/*--------REGISTER FORM---------*/
+#register{
+	background-color:  #48CFAD;
+	/*background-image: url("../img/pattern.png");*/	
+}
+#form {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 10px 0;
+  margin: 0 auto;
+  padding-bottom: 40px !important;
+  display: block;
+}
+form {
+  margin: 0 auto;
+  width: 99%;
+}
+label, input {
+  display: block;}
+label {
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color:#fff;
+}
+input{
+	background-color: transparent;
+}
+input, select{
+  border: 3px solid #fff;
+  font-size: 0.8em;
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  -webkit-border-radius: 6px;
+ -moz-border-radius: 6px;
+  border-radius: 6px; 
+  margin-top: 8px;
+}
+label[for='listName'],#description{
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color:#fff;
+}
+ #description{
+ 	width: 80%;
+ 	float: left;
+ 	clear:left;
+ 	display: inline-block;
+ }
+ input:focus {
+  border: 4px solid #fff;
+  background-color: #fff;
+  color: #333;
+}
+input[type=submit] {
+  background-color: #48CFAD;
+  color: #fff;
+  font-weight: bold;
+  clear:left;
+  float: left;
+  width: 8em;
+  padding: 10px 20px 10px 20px;
+  margin-top: 15px;
+  text-transform: uppercase;}
+input[type=submit]:hover {
+  background-color: #37BC98;
+  box-shadow: 15px #666;
+  cursor: pointer;}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color:    #E6E9ED;
+}
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color: #E6E9ED;
+}
+input::-moz-placeholder, textarea::-moz-placeholder { 
+    color: #E6E9ED;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    color:   #E6E9ED;
+}
+#asterisk{
+	color: #ee0505;
+	font-size: 0.8em;
+	text-shadow:0.5px 0 0 #ee0505;
+}
+select{
+	width: 45%;
+	margin-top: 2%;
+  	float: left;
+	background-color: transparent;
+	border: 3px solid #fff;
+	font-size: 0.8em;
+	border-radius: 1px;
+	display: block;
+	color: #fff;
+}
+#columOne{
+	width: 45%;
+	float: left;
+	padding-left: 10%;
+}
+#columTwo{
+	float: right;
+	width: 45%;
+}
+
+/*---------WHEN---------*/
+
+#timer{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+#page5{
+	text-align: center;
+}
+#remind{
+	font-family: 'Open Sans', sans-serif;
+}
+#location{
+	margin-bottom: 5%;
+}
+a{
+	text-decoration: none;
+	color: #48CFAD;
+}
+a:hover{
+	color: #AAB2BD;
+}
+.color{
+	color: #48CFAD;
+}
+/*-----------MAP-----------*/
+#map{
+	width: 100%;
+	border-radius: 10px;
+	height: 400px;
+}
+#googleMap{
+	width: 100%;
+	height: 400px;
+}
+
+/*-----------CONTACT-----------*/
+#info{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 1%;
+}
+#email,#tel,#social{
+	width: 49%;
+	text-align: center;
+	padding-bottom: 20px;
+	display: block;
+}
+#tel{
+	float: right;
+}
+#email{
+	float: left;
+}
+#social {
+	margin: 0 auto;
+
+}
+
+#fb, #twt{
+	width: 30px;
+	height:30px;
+	margin: 3%;
+	display: inline-block;	
+}
+#twt{
+background-image: url("../img/twitterMint.png");
+
+opacity: 0.7;
+}
+#twt:hover{
+background-image: url("../img/twitterGrey.png");
+opacity: 0.7;
+}
+#fb{
+	background-image: url("../img/fbMint.png");
+	opacity: 0.7;
+}
+#fb:hover{
+	background-image: url("../img/fbGrey.png");
+	opacity: 0.7;
+}
+/*-----------FOOTER-----------*/
+#footer{
+	text-align: center;
+	background-color:  #48CFAD;
+	font-size: 0.7em;
+	padding: 0.5% 0 0.5% 0;
+}	
+
+
+
+
+
+
+
+
+
+
+

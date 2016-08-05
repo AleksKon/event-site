@@ -1,0 +1,39 @@
+{
+  "talks": [
+    {
+      "title": "Tea History 101",
+      "speaker": "with Mary Smith", 
+      "date": "Friday, May 22, 2-4 pm at Whole Foods LES"
+    },
+    {
+      "title": "New Japanese Tea Producers",
+      "speaker": "with Michel Sui", 
+      "date": "Friday, May 22, 4-5pm at Cha-An"
+    },
+    {
+      "title": "Herbal Tea Renaissance",
+      "speaker": "with  Sandra Minter", 
+      "date": "Saturday, May 23, 2pm-4pm at Whole Foods LES"
+    },
+    {
+      "title": "Organic Teas: Global Standards",
+      "speaker": "with Henry Mangan", 
+      "date": "Sunday, May 24, 2pm-4pm at Whole Foods LES"
+    }
+  ],
+
+  "tastings": [
+    {
+      "title": "Baking with Matcha ",
+      "date": "Saturday, May 23, 1pm-4pm at Tasting Table Test Kitchen"
+    },
+    {
+      "title": "Green Tea Tasting ",
+      "date": "Saturday, May 23, 4pm-7pm at The Puck Building"
+    },
+    {
+      "title": "Black Tea Tasting ",
+      "date": "Sunday, May 24, 1pm-4pm at The Puck Building"
+    }
+  ]
+}
